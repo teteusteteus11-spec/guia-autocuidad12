@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Minha Melhor Rotina</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial;background:#fff9f6;color:#493b36}
+header{padding:22px;text-align:center;background:#f2dcd3}
+.hero{text-align:center;padding:65px 20px;background:#f9e9e2}
+h1{font-size:36px;color:#805548}
+p{line-height:1.7}
+section{text-align:center;padding:35px 20px}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:white;padding:20px;border-radius:15px;box-shadow:0 2px 9px #ddd}
+button,.btn{background:#966354;color:white;padding:16px 25px;border:0;border-radius:30px;text-decoration:none;font-weight:bold;display:inline-block}
+.price{background:#f4e3dc;padding:30px;border-radius:20px}
+footer{text-align:center;background:#805548;color:white;padding:25px}
+</style>
+</head>
+<body>
+<header>
+<h2>✨ MINHA MELHOR ROTINA</h2>
+</header>
 
+<div class="hero">
+<h1>Cuide de você! ❤️</h1>
+<p>100 dicas para transformar sua rotina de autocuidado.</p>
+<a class="btn" href="#comprar">QUERO MEU GUIA</a>
+</div>
+
+<section>
+<h2>O que você vai aprender?</h2>
+<div class="cards">
+<div class="card">🧴<h3>Cuidados com a pele</h3><p>Limpeza e hidratação.</p></div>
+<div class="card">💈<h3>Cuidados com cabelo</h3><p>Hidratação e finalização.</p></div>
+<div class="card">🧼<h3>Higiene pessoal</h3><p>Hábitos para o dia a dia.</p></div>
+<div class="card">👕<h3>Estilo pessoal</h3><p>Moda e combinações.</p></div>
+<div class="card">🧠<h3>Autoestima</h3><p>Autoconhecimento e confiança.</p></div>
+<div class="card">📅<h3>Organização</h3><p>Planejamento e hábitos.</p></div>
+</div>
+</section>
+
+<section>
+<h2>🎁 O que está incluído?</h2>
+<p>✅ 100 dicas explicadas</p>
+<p>✅ Rotina de autocuidado</p>
+<p>✅ Checklist diário</p>
+<p>✅ Planejamento semanal</p>
+<p>✅ Desafio de 7 dias</p>
+</section>
+
+<section id="comprar">
+<div class="price">
+<h2>Seu autocuidado começa aqui!</h2>
+<p>Tenha acesso ao Guia Completo de Autocuidado.</p>
+<h1>R$ SEU PREÇO</h1>
+<a class="btn" href="SEU_LINK_KIWIFY">COMPRAR AGORA</a>
+</div>
+</section>
+
+<footer>
+<p>✨ Minha Melhor Rotina</p>
+<p>Cuide de você, um hábito de cada vez!</p>
+</footer>
+</body>
+</html>
